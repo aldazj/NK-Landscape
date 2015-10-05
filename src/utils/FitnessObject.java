@@ -13,14 +13,26 @@ public class FitnessObject {
         this.sequence = sequence;
     }
 
+    /**
+     * Get a fitness
+     * @return
+     */
     public double getFitness() {
         return fitness;
     }
 
+    /**
+     * To get a sequence
+     * @return
+     */
     public String getSequence() {
         return sequence;
     }
 
+    /**
+     * To edit the fitness
+     * @param fitness
+     */
     public void setFitness(double fitness) {
         this.fitness = fitness;
     }

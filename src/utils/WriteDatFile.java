@@ -17,6 +17,10 @@ public class WriteDatFile {
         this.filename = folder+"/"+filename+".dat";
     }
 
+    /**
+     * Write the results in a file .dat
+     * @param results
+     */
     public void writeResults(double[] results){
         try {
             File file = new File(filename);
